@@ -12,6 +12,7 @@
       rel="preload"
     />
     <script src="https://pixijs.download/v5.3.2/pixi.min.js"></script>
+    <script src="/assets/js/script.js"></script>
 
   </head>
 
@@ -147,7 +148,7 @@
       </div>
     </section>
 
-    <div  class="py-5 flex flex-col items-center justify-center">
+    <div  class="py-5 flex flex-col items-center justify-center reveal fade-bottom">
         <div id="content-container" class="flex gap-2 flex-wrap">
             <div
                 class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
@@ -307,7 +308,27 @@
             </div>
         </div>
     </div>
-    <section  id="news">
+    <section class="my-5 reveal fade-bottom">
+    <div id="slider" class="bg-white slider">
+      <div class="slider-slide active">
+        <img src="assets/images/image-1.jpg" alt="Image 1">
+      </div>
+      <div class="slider-slide">
+        <img src="assets/images/image-1.jpg" alt="Image 2">
+      </div>
+      <div class="slider-slide">
+        <img src="assets/images/image-1.jpg" alt="Image 3">
+      </div>
+      <div class="slider-slide">
+        <img src="assets/images/image-1.jpg" alt="Image 4">
+      </div>
+      <div class="slider-controls">
+        <button class="text-3xl font-bold text-black" id="prevBtn">Next</button>
+        <button class="text-3xl font-bold text-black" id="nextBtn">Prev</button>
+      </div>
+    </div>
+  </section>
+    <section  id="news" class="bg-white reveal fade-bottom">
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md sm:text-center">
           <h2
@@ -380,8 +401,9 @@
       </div>
       
     </section>
-    <footer>
-      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+
+    <footer class="bg-white reveal fade-bottom">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 reveal fade-bottom">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="https://flowbite.com/" class="flex items-center">
