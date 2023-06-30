@@ -67,6 +67,7 @@ a:hover {
 	height: 600px;
 	position: relative;
 	overflow: hidden;
+	padding: 50px 0;
   }
 
   .slider-slide {
